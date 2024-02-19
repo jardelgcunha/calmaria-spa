@@ -9,6 +9,7 @@ header {
         flex-direction: column;
         align-items: center;
         gap: 1.6rem;
+        padding-bottom: 1.5rem;
         .linha {
             border-top: 1px solid black;
             width: 80%;
@@ -16,6 +17,7 @@ header {
         ul {
             display: inline-flex;
             gap: 2rem;
+            margin: 0;
             li {
                 list-style: none;
             }
@@ -41,6 +43,7 @@ header {
             h1 {
                 font-size: 42px;
                 color: variaveis.$cor-primaria;
+                margin-top: 0rem;
                 margin-bottom: 2rem;
                 font-family: variaveis.$ft-titulos;
                 span {
@@ -63,6 +66,7 @@ header {
             }
         }
         .img-home {
+            width: 400px;
             max-width: 474px;
             img {
                 width: 100%;
