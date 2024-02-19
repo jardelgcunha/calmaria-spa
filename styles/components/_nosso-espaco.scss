@@ -9,7 +9,7 @@
         align-items: center;
         justify-content: space-around;
         gap: 2rem;
-        padding: 2rem 0;
+        padding: 1rem 0;
         .imgs-espaco {
             max-width: 500px;
         }
@@ -22,6 +22,7 @@
                     variaveis.$cor-secundaria
                 );
                 font-weight: 500;
+                margin-top: 0;
             }
             .infos {
                 @include mixins.ff-fs-cl(

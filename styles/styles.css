@@ -87,7 +87,7 @@ header #home .img-home img {
   align-items: center;
   justify-content: space-around;
   gap: 2rem;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 #nosso-espaco .detalhes .imgs-espaco, #nosso-espaco .detalhes .espaco-textos {
   max-width: 500px;
@@ -97,6 +97,7 @@ header #home .img-home img {
   font-size: 1.8rem;
   color: #4e75ff;
   font-weight: 500;
+  margin-top: 0;
 }
 #nosso-espaco .detalhes .espaco-textos .infos {
   font-family: "Montserrat", sans-serif;
@@ -112,7 +113,8 @@ header #home .img-home img {
 
 #servico {
   background: linear-gradient(180deg, #e8f5c8 0%, #ffffff 96.87%);
-  padding: 5rem 0;
+  padding: 3rem 0;
+  margin-top: 2rem;
 }
 #servico .cards {
   margin: 0 auto;
@@ -131,6 +133,7 @@ header #home .img-home img {
   font-family: "Krona One", sans-serif;
   font-size: 1.6rem;
   color: #0c0421;
+  min-height: 64px;
 }
 #servico .cards .card-texto {
   font-family: "Montserrat", sans-serif;

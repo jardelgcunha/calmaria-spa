@@ -3,7 +3,8 @@
 
 #servico {
     background: variaveis.$gradiente-primario;
-    padding: 5rem 0;
+    padding: 3rem 0;
+    margin-top: 2rem;
     .cards {
         @include mixins.margem-central(80%);
         display: flex;
@@ -20,6 +21,7 @@
                     1.6rem,
                     variaveis.$cor-primaria
                 );
+                min-height: 64px;
             }
             &-texto {
                 @include mixins.ff-fs-cl(
