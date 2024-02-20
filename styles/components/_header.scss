@@ -29,6 +29,9 @@ header {
                     variaveis.$cor-primaria
                 );
                 font-weight: 500;
+                &:hover {
+                    font-weight: bold;
+                }
             }
         }
     }
@@ -53,16 +56,21 @@ header {
             .btn-main {
                 background-color: variaveis.$cor-secundaria;
                 width: 280px;
+                font-family: variaveis.$ft-textos;
+                color: #fff;
+                font-size: 22px;
+                font-weight: 600;
+                line-height: 18px;
                 padding: 24px;
                 border-radius: 66px;
                 border: none;
                 outline: none;
                 cursor: pointer;
-                font-family: variaveis.$ft-textos;
-                font-size: 22px;
-                font-weight: 600;
-                line-height: 18px;
-                color: #fff;
+                opacity: 0.3;
+                transition: opacity 1s;
+                &:hover {
+                    opacity: 1;
+                }
             }
         }
         .img-home {

@@ -34,6 +34,9 @@ header nav ul a {
   color: #0c0421;
   font-weight: 500;
 }
+header nav ul a:hover {
+  font-weight: bold;
+}
 header #home {
   max-width: 1040px;
   margin: 0 auto;
@@ -58,16 +61,21 @@ header #home .textos-home h1 span {
 header #home .textos-home .btn-main {
   background-color: #4e75ff;
   width: 280px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 18px;
   padding: 24px;
   border-radius: 66px;
   border: none;
   outline: none;
   cursor: pointer;
-  font-family: "Montserrat", sans-serif;
-  font-size: 22px;
-  font-weight: 600;
-  line-height: 18px;
-  color: #fff;
+  opacity: 0.3;
+  transition: opacity 1s;
+}
+header #home .textos-home .btn-main:hover {
+  opacity: 1;
 }
 header #home .img-home {
   width: 400px;
