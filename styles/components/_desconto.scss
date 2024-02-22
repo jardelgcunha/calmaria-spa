@@ -20,4 +20,12 @@
             variaveis.$cor-primaria
         );
     }
+    .input-btn {
+        $largura-input: 790px;
+        width: $largura-input;
+        height: 65px;
+        border: 1px solid variaveis.$cor-secundaria;
+        border-radius: 65px;
+        margin: 0 auto;
+    }
 }
