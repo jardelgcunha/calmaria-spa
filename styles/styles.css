@@ -62,7 +62,7 @@ header #home .textos-home .btn-main {
   background-color: #4e75ff;
   width: 280px;
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: white;
   font-size: 22px;
   font-weight: 600;
   line-height: 18px;
@@ -134,7 +134,7 @@ header #home .img-home img {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(202, 212, 250, 0.3) 100%);
   padding: 1rem 1.5rem;
   text-align: center;
-  border: 1px solid #fff;
+  border: 1px solid white;
   border-radius: 3rem;
 }
 #servico .cards .card-titulo {
@@ -171,4 +171,23 @@ header #home .img-home img {
   border: 1px solid #4e75ff;
   border-radius: 65px;
   margin: 0 auto;
+  display: inline-flex;
+}
+#desconto .input-btn input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #0c0421;
+  width: 513.5px;
+  border: none;
+  outline: none;
+  margin-left: 2rem;
+}
+#desconto .input-btn button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  width: 276.5px;
+  background: #4e75ff;
+  border-radius: 0 65px 65px 0;
+  border: none;
 }/*# sourceMappingURL=styles.css.map */
