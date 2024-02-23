@@ -9,20 +9,20 @@
         align-items: center;
         justify-content: space-around;
         gap: 2rem;
-        padding: 1rem 0;
+        padding: 0.5rem 0;
         .imgs-espaco {
             max-width: 500px;
         }
         .espaco-textos {
             @extend .imgs-espaco;
             .titulo {
+                margin-top: 0;
                 @include mixins.ff-fs-cl(
                     variaveis.$ft-titulos,
                     1.8rem,
                     variaveis.$cor-secundaria
                 );
                 font-weight: 500;
-                margin-top: 0;
             }
             .infos {
                 @include mixins.ff-fs-cl(
