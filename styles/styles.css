@@ -120,31 +120,31 @@ header #home .img-home img {
   flex-direction: row-reverse;
 }
 
-#servico {
+#servicos {
   background: linear-gradient(180deg, #e8f5c8 0%, #ffffff 96.87%);
   padding: 6rem 0;
   margin-top: 8rem;
 }
-#servico .cards {
+#servicos .cards {
   margin: 0 auto;
   width: 80%;
   display: flex;
   gap: 1.5rem;
 }
-#servico .cards .card {
+#servicos .cards .card {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(202, 212, 250, 0.3) 100%);
   padding: 1rem 1.5rem;
   text-align: center;
   border: 1px solid #fff;
   border-radius: 3rem;
 }
-#servico .cards .card-titulo {
+#servicos .cards .card-titulo {
   min-height: 64px;
   font-family: "Krona One", sans-serif;
   font-size: 1.6rem;
   color: #0c0421;
 }
-#servico .cards .card-texto {
+#servicos .cards .card-texto {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   color: #0c0421;
