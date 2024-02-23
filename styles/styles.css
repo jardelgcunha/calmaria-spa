@@ -87,6 +87,7 @@ header #home .img-home img {
 #nosso-espaco {
   margin: 0 auto;
   width: 80%;
+  padding-top: 6rem;
 }
 #nosso-espaco .detalhes {
   width: 100%;
@@ -121,7 +122,7 @@ header #home .img-home img {
 #servico {
   background: linear-gradient(180deg, #e8f5c8 0%, #ffffff 96.87%);
   padding: 6rem 0;
-  margin-top: 2rem;
+  margin-top: 8rem;
 }
 #servico .cards {
   margin: 0 auto;
@@ -275,7 +276,7 @@ header #home .img-home img {
 footer {
   background: #e8f5c8;
   padding: 2rem;
-  margin-top: 5rem;
+  margin-top: 8rem;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;

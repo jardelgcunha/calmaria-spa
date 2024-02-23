@@ -3,6 +3,7 @@
 
 #nosso-espaco {
     @include mixins.margem-central(80%);
+    padding-top: 6rem;
     .detalhes {
         width: 100%;
         display: inline-flex;
