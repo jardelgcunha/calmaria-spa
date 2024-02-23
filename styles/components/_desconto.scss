@@ -7,6 +7,7 @@
     justify-content: space-between;
     text-align: center;
     margin-top: 2rem;
+    margin-bottom: 8rem;
     h4 {
         @include mixins.ff-fs-cl(
             variaveis.$ft-titulos,

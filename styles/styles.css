@@ -154,6 +154,7 @@ header #home .img-home img {
   justify-content: space-between;
   text-align: center;
   margin-top: 2rem;
+  margin-bottom: 8rem;
 }
 #desconto h4 {
   font-family: "Krona One", sans-serif;
