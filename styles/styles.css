@@ -265,6 +265,7 @@ header #home .img-home img {
   font-weight: bold;
 }
 #contatos .contatos-form .inputs .form-group textarea {
+  outline: none;
   resize: none;
 }
 #contatos .contatos-form .inputs .btn {
