@@ -150,7 +150,7 @@ header #home .img-home img {
   color: #0c0421;
 }
 
-#desconto {
+#descontos {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -158,17 +158,17 @@ header #home .img-home img {
   margin-top: 2rem;
   margin-bottom: 8rem;
 }
-#desconto h4 {
+#descontos h4 {
   font-family: "Krona One", sans-serif;
   font-size: 1.6rem;
   color: #0c0421;
 }
-#desconto p {
+#descontos p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   color: #0c0421;
 }
-#desconto .input-btn {
+#descontos .input-btn {
   margin: 0 auto;
   width: 790px;
   height: 65px;
@@ -176,7 +176,7 @@ header #home .img-home img {
   border: 1px solid #4e75ff;
   border-radius: 65px;
 }
-#desconto .input-btn input {
+#descontos .input-btn input {
   width: 513.5px;
   margin-left: 2rem;
   font-family: "Montserrat", sans-serif;
@@ -185,7 +185,7 @@ header #home .img-home img {
   border: none;
   outline: none;
 }
-#desconto .input-btn button {
+#descontos .input-btn button {
   width: 276.5px;
   background: #4e75ff;
   font-family: "Montserrat", sans-serif;
@@ -197,7 +197,7 @@ header #home .img-home img {
   cursor: pointer;
   transition: 0.3s;
 }
-#desconto .input-btn button:hover {
+#descontos .input-btn button:hover {
   background: #cad4fa;
 }
 
