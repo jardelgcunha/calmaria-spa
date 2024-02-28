@@ -203,25 +203,26 @@ header #home .img-home img {
 
 #contatos {
   margin: 0 auto;
-  width: 80%;
+  width: 73%;
+  margin-top: 8.5rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 2rem;
-  margin-top: 4rem;
 }
 #contatos .contatos-imgs {
   max-width: 46%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 1rem;
-  justify-content: space-evenly;
 }
 #contatos .contatos-imgs img {
-  width: 94%;
+  width: 100%;
 }
 #contatos .contatos-imgs img:nth-child(n+2) {
-  width: 44%;
+  width: 48%;
 }
 #contatos .contatos-form {
   background: linear-gradient(180deg, #e8f5c8 0%, #ffffff 96.87%);
@@ -234,6 +235,9 @@ header #home .img-home img {
   font-size: 1.9rem;
   color: #4e75ff;
 }
+#contatos .contatos-form p.infos {
+  margin-bottom: 40.432px;
+}
 #contatos .contatos-form .infos, #contatos .contatos-form .inputs .form-group label {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
@@ -243,9 +247,8 @@ header #home .img-home img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1.5rem;
   align-self: stretch;
-  padding-top: 1rem;
+  gap: 1.5rem;
 }
 #contatos .contatos-form .inputs input, #contatos .contatos-form .inputs .btn, #contatos .contatos-form .inputs .form-group textarea {
   padding: 1rem;
@@ -260,6 +263,9 @@ header #home .img-home img {
 }
 #contatos .contatos-form .inputs .form-group label {
   font-weight: bold;
+}
+#contatos .contatos-form .inputs .form-group textarea {
+  resize: none;
 }
 #contatos .contatos-form .inputs .btn {
   background: #cad4fa;

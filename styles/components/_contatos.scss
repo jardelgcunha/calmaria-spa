@@ -2,27 +2,23 @@
 @use '../abstract/mixins';
 
 #contatos {
-    @include mixins.margem-central(80%);
+    @include mixins.margem-central(73%);
+    margin-top: 8.5rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 2rem;
-    margin-top: 4rem;
     .contatos-imgs {
         max-width: 46%;
-        // max-width: 50%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-between;
         gap: 1rem;
-        // gap: 1.5rem;
-        justify-content: space-evenly;
-        // justify-content: space-around;
         img {
-            width: 94%;
-            // width: 100%;
+            width: 100%;
             &:nth-child(n + 2) {
-                width: 44%;
-                // width: 48%;
+                width: 48%;
             }
         }
     }
@@ -30,7 +26,6 @@
         background: variaveis.$gradiente-primario;
         max-width: 50%;
         padding: 0rem 3rem;
-        // padding: 2rem 3rem;
         border-radius: 2rem;
         .titulo {
             @include mixins.ff-fs-cl(
@@ -38,6 +33,9 @@
                 1.9rem,
                 variaveis.$cor-secundaria
             );
+        }
+        p.infos {
+            margin-bottom: 40.432px;
         }
         .infos {
             @include mixins.ff-fs-cl(
@@ -50,9 +48,8 @@
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            gap: 1.5rem;
             align-self: stretch;
-            padding-top: 1rem;
+            gap: 1.5rem;
             input {
                 padding: 1rem;
                 border: none;
@@ -69,13 +66,13 @@
                 }
                 textarea {
                     @extend input;
+                    resize: none;
                 }
             }
             .btn {
                 @extend input;
                 background: variaveis.$cor-default;
                 width: 100%;
-                // margin-top: 1rem;
                 @include mixins.ff-fs-cl(
                     variaveis.$ft-textos,
                     1rem,
